@@ -1,0 +1,314 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "location": "Pacific Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "1": {
+            "position": {
+              "x": 2,
+              "y": 1,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "location": "Mountain Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "2": {
+            "position": {
+              "x": 4,
+              "y": 1,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "location": "Central Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "3": {
+            "position": {
+              "x": 6,
+              "y": 1,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "location": "Eastern Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "4": {
+            "position": {
+              "x": 8,
+              "y": 1,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "location": "GMT Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "5": {
+            "position": {
+              "x": 10,
+              "y": 1,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "location": "India Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "6": {
+            "position": {
+              "x": 12,
+              "y": 1,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "settings": {
+                    "location": "China Standard Time",
+                    "timeFormat": "HH:mm",
+                    "version": 1
+                  }
+                }
+              }
+            }
+          },
+          "7": {
+            "position": {
+              "x": 0,
+              "y": 2,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/OrganizationIdentityPart"
+            }
+          },
+          "8": {
+            "position": {
+              "x": 4,
+              "y": 2,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/UserManagementSummaryPart"
+            }
+          },
+          "9": {
+            "position": {
+              "x": 6,
+              "y": 2,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "userObjectId",
+                  "isOptional": true
+                },
+                {
+                  "name": "startDate",
+                  "isOptional": true
+                },
+                {
+                  "name": "endDate",
+                  "isOptional": true
+                },
+                {
+                  "name": "fromAppsTile",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/UsersActivitySummaryReportPart"
+            }
+          },
+          "10": {
+            "position": {
+              "x": 10,
+              "y": 2,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/ActiveDirectoryQuickTasksPart"
+            }
+          },
+          "11": {
+            "position": {
+              "x": 12,
+              "y": 2,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "selectedMenuItemId",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/GalleryTile"
+            }
+          },
+          "12": {
+            "position": {
+              "x": 0,
+              "y": 4,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/resources",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "scope",
+                  "isOptional": true
+                },
+                {
+                  "name": "kind",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllResourcesPinnedPart"
+            }
+          },
+          "13": {
+            "position": {
+              "x": 6,
+              "y": 4,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ServicesHealthPart"
+            }
+          },
+          "14": {
+            "position": {
+              "x": 12,
+              "y": 4,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/HelpAndSupportPart"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        }
+      }
+    }
+  },
+  "name": "Azure AD Admin Dashboard (2)",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Azure AD Admin Dashboard (2)"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
